@@ -1,0 +1,131 @@
+@import '../../vars.css';
+
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 79px;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start
+}
+
+.experienceLayout {
+  display: flex;
+  flex-wrap: wrap;
+  width: 45%;
+  gap: 37px;
+}
+
+.experienceItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experienceLogo {
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.experienceLogo img {
+  width: 75px;
+}
+
+.experienceText {
+  color: var(--color-text);
+  text-transform: uppercase;
+  font-family: var(--font-roboto);
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1.25px;
+  display: flex;
+  margin-top: 14px;
+}
+
+.historyList {
+  list-style: none;
+  color: var(--color-text);
+  width: 45%;
+}
+
+.historyListItem {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-left: 24px;
+  display: flex;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg, 
+    #19376D 0%, 
+    rgba(25, 55, 109, 0.00) 100%
+  );
+  flex-direction: row;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.historyIcon {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  margin-right: 17px;
+}
+
+.historyRole {
+  font-family: var(--font-roboto);
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+
+.historyDate {
+  font-family: var(--font-roboto);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.historyPoints {
+  font-family: var(--font-roboto);
+  font-size: 25px;
+  letter-spacing: 1.25px;
+  list-style-position: inside;
+  padding-top: 6px;
+  list-style-type: disc;
+}
+
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experienceLayout {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .historyList {
+    margin-top: 34px;
+    width: 100%;
+    gap: 9px;
+  }
+}
