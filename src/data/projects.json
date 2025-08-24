@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Game 1",
+    "imageName": "Game 1.png",
+    "description": "This game was a submission for UCSD's tinyware game jam",
+    "skills": ["Unity", "C#"],
+    "demoURL": "google.com",
+    "sourceCodeURL": "https://github.com/aslanchan7/portfolio-website"
+  },
+  {
+    "title": "Game 1",
+    "imageName": "Game 1.png",
+    "description": "This is a game",
+    "skills": ["Unity", "C#"],
+    "demoURL": "google.com",
+    "sourceCodeURL": "https://github.com/aslanchan7/portfolio-website"
+  },
+  {
+    "title": "Game 1",
+    "imageName": "Game 1.png",
+    "description": "This is a game",
+    "skills": ["Unity", "C#"],
+    "demoURL": "google.com",
+    "sourceCodeURL": "https://github.com/aslanchan7/portfolio-website"
+  },
+  {
+    "title": "Game 1",
+    "imageName": "Game 1.png",
+    "description": "This game was a submission for UCSD's tinyware game jam",
+    "skills": ["Unity", "C#"],
+    "demoURL": "google.com",
+    "sourceCodeURL": "https://github.com/aslanchan7/portfolio-website"
+  }
+]
