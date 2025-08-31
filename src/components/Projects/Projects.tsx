@@ -4,7 +4,7 @@ import projects from "../../data/projects.json"
 
 export const Projects = () => {
   return (
-    <section id='#projects' className={styles.container}>
+    <section id='projects' className={styles.container}>
         <h2 className={styles.title}>
           Projects
         </h2>

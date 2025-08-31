@@ -1,0 +1,79 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  background: var(--color-secondary);
+  margin-top: 100px;
+  padding: 64px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  color: var(--color-text);
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.contactsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.contactsContainer div {
+  display: flex;
+  flex-direction: row;
+  margin: 12.5px;
+  color: var(--color-text);
+  align-items: center;
+}
+
+.contactsContainer img {
+  width: 50px;
+  height: 50px;  
+}
+
+.contactsContainer p {
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .titleContainer {
+    display: flex;
+  }
+}
